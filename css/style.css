@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #65655e;
+}
+
+#container {
+  width: 40%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+  border: 2px solid #454545;
+  border-radius: 20px;
+}
+
+#password {
+  color: #262730;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
